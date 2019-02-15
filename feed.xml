@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Austin Zhang</title>
+    <description>A place where I share thoughts and projects.</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Second day on the road</title>
+        <description>&lt;p&gt;We spent the second day of our journey almost entirely on the road except for rest stops and roads. This time we traveled from last night’s stop at Olean NY to our destination in the White Mountains, Lafayette Campground. We got up a little late today, around 9 in the morning. We planned to leave at 9, but we left instead at 10. We drove all the way to Syracuse, only stopping once to take a picture at a scenic overlook, shown below.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/d2-olean-overlook.jpg&quot; alt=&quot;Olean Overlook&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Afterwards, we continued to Syracuse, stopping to eat at Dinosaur BBQ. Although we didn’t snap a picture of our food, we did get a photo of the aftermath.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/d2-dino-bbq.jpg&quot; alt=&quot;Dino BBQ&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We continued northeast, passing through Vermont stopping for dinner in Hanover. Following a short drive to our campground, we setup our tent, built a small campfire, and bear-bagged all of our food. Unfortunately we didn’t have time to fish today, but we’re planning on doing it either tomorrow after our hike or before we drive up to Mount Washington. Tomorrow we’ll tackle the Franconia Ridge Trail, one of the two large hikes we have planned for this trip.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 20 May 2018 23:00:00 +0000</pubDate>
+        <link>http://localhost:4000/senior-trip-post/2018/05/20/Second-day-on-the-road/</link>
+        <guid isPermaLink="true">http://localhost:4000/senior-trip-post/2018/05/20/Second-day-on-the-road/</guid>
+      </item>
+    
+      <item>
+        <title>First day traveling</title>
+        <description>&lt;p&gt;The first day of our journey was rather uneventful. After packing all of our supplies, we picked Abhi up who just returned from St. Louis. The drive to our eventual destination of Olean was fairly scenic, but much of it was clouded by rain and thunderstorms which proved quite the impediment. After 5 hours and crossing two state lines, we finally arrived at Olean, making it just in time to a restaurant before it’s closing time.&lt;/p&gt;
+
+&lt;p&gt;Here are some pictures of our drive.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/d1-drive-rain.jpg&quot; alt=&quot;Pennsylvania Drive&quot; /&gt;
+Our rainy drive into Pennsylvania.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/d1-drive-rain2.jpg&quot; alt=&quot;New York Drive&quot; /&gt;
+Still raining when we hit New York.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 19 May 2018 23:49:00 +0000</pubDate>
+        <link>http://localhost:4000/senior-trip-post/2018/05/19/First-day-traveling/</link>
+        <guid isPermaLink="true">http://localhost:4000/senior-trip-post/2018/05/19/First-day-traveling/</guid>
+      </item>
+    
+      <item>
+        <title>Planning the trip</title>
+        <description>&lt;p&gt;This trip took a lot of planning regarding places to stay, setting up activities, and the overall itinerary. So after several group meetings at Starbucks and meetings with our parents to finalize everything, we finally finished our plan. On Saturday we are leaving around 3 pm to go to Olean and spend the night at a hotel. Sunday we are driving to the White Mountains in New Hampshire and that evening we will set up our tent at the camping ground. After camping that night, we will hike Franconia trail during the day (9-hour trail). On Tuesday, we will go fishing, pack up our camping site, and drive to Mount Washington. Wednesday we will hike up Mount Washington. Thursday we will hike the lonesome lake trails and go fishing and in the evening drive to Maine. Friday we will watch the sunrise over Cape Elizabeth, spend a day in new york and then head home!&lt;/p&gt;
+</description>
+        <pubDate>Thu, 17 May 2018 11:35:00 +0000</pubDate>
+        <link>http://localhost:4000/senior-trip-post/2018/05/17/Planning-the-trip/</link>
+        <guid isPermaLink="true">http://localhost:4000/senior-trip-post/2018/05/17/Planning-the-trip/</guid>
+      </item>
+    
+      <item>
+        <title>U-Chicago essay prompt fun</title>
+        <description>&lt;p&gt;As a high school senior, I’ve started to look at some of the supplemental essays for different colleges, and one of U Chicago’s prompts caught my eye. The prompt is, &lt;em&gt;“Due to a series of clerical errors, there is exactly one typo (an extra letter, a removed letter, or an altered letter) in the name of every department at the University of Chicago. Oops! Describe your new intended major. Why are you interested in it and what courses or areas of focus within it might you want to explore? Potential options include Commuter Science, Bromance Languages and Literatures, Pundamentals: Issues and Texts, Ant History…”&lt;/em&gt; U Chicago is pretty well known for its unconventional prompts, and this prompt is no exception. However, this prompt was particularly interesting because there’s a pretty cool project that can be adapted from it.&lt;/p&gt;
+
+&lt;p&gt;I couldn’t think of many departments when I began brainstorming ideas for the essay, which led me to this project idea: an algorithm that scans all the possible word modifications for the majors. It should be a pretty simple project to brute force. For example, the word “Anthropology” is 12 letters long. For the word, you can choose to either insert a letter, delete a letter, or alter a letter. Since there are 12 letters, you have 12 letters to choose from to erase or alter and 13 slots where you could possibly insert a letter. This same pattern applies to all words, so each word has 3n+1 different possible modifications. However, in some of the modifications (inserting or replacing a letter), you also have to choose a letter you want to insert or replace, which adds to the complexity. There are 26 different letters you can insert, and 25 different letters you can replace the current letter with. this brings up the complexity by a large amount, so the total number of different combinations for a word of n length is 25n + 26(n+1) + n. This brings the number of combinations for our “Anthropology” example up to 650. This may seem like a lot of combinations to write out by hand, but it would take a computer less than a second to compute all of the combinations of not only the word Anthropology but of every word in all of the different majors at U Chicago.&lt;/p&gt;
+
+&lt;p&gt;Ok, enough background. Let’s start coding.&lt;/p&gt;
+
+&lt;p&gt;Although there are a lot of different possible combinations, it’s evident that most of them will be gibberish. That’s why I’ll want to cross check my combinations with an actual dictionary to see whether I have a real word or not. I downloaded a word list from &lt;a href=&quot;https://code.google.com/archive/p/dotnetperls-controls/downloads&quot;&gt;here&lt;/a&gt; that I’ll use to see if my combination is a real word.&lt;/p&gt;
+
+&lt;p&gt;First I’ll input the list into a set (for speed purposes, IO is very slow and it’s horribly inefficient to scan the entire document every time I have a new word)&lt;/p&gt;
+
+&lt;p&gt;Now comes the fun part…permutating each word.&lt;/p&gt;
+
+&lt;p&gt;This part is actually very easy and can be accomplished with a couple while loops. After permutating the word, I check it against an English word list and if it’s a real word, I store the result and original word in a key-map pair.&lt;/p&gt;
+
+&lt;p&gt;After all the different permutations have been tested I spit out the result map to a text document.&lt;/p&gt;
+
+&lt;p&gt;Now to actually see what words majors there were I had to type out all of the majors into a text document. This was definitely the worst part.&lt;/p&gt;
+
+&lt;p&gt;So once I finished writing the program, I ran it (runtime is &amp;lt; 1sec) and found that in total, with all the majors/concentrations/etc. listed on U Chicago’s site, there are 663 different possible things you could write your topic on. This was actually a lot more than I expected, but keep in mind that the majority of these different possibilities are nonsensical.&lt;/p&gt;
+
+&lt;p&gt;As a closing note, although this program finds all the possible English permutations of the words in the U Chicago majors, it doesn’t consider “punny” words to be real words (ex. Pundamentals). So we are assuredly missing out on a section of the possible prompts.&lt;/p&gt;
+
+&lt;p&gt;You can view the source code along with a list of possible essay words &lt;a href=&quot;https://github.com/austinzhang1018/U-Chicago-Prompt-Generator&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 14 Aug 2017 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2017/08/14/uchicago-essay-prompt/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/08/14/uchicago-essay-prompt/</guid>
+      </item>
+    
+      <item>
+        <title>Eboard Update</title>
+        <description>&lt;p&gt;Our electric skateboard design is near finalization. The ESC case and battery case are finished and seem pretty sturdy. Now, the only thing we still need to workout is a transmitter/remote and a battery solution. 
+Currently, we’re using an &lt;a href=&quot;https://hobbyking.com/en_us/hobbykingr-tmhk-gt2b-3ch-2-4ghz-transmitter-and-receiver-w-rechargable-li-ion-battery-1.html&quot;&gt;HK-GT2B&lt;/a&gt; transmitter/receiver combo meant for an RC car that’s rehoused in a 3d printed remote case we found on Thingiverse. While this works fine, the rehousing process for the remote is a little difficult and involves some soldering and cutting to make the bulky RC controller components fit in the small controller. If we were to sell kits for our skateboard, I’d feel better with including a premade controller or at least a controller that’s easier to assemble. We could either buy a specialized transmitter/receiver combo or build our own with an Arduino. I think the first option would probably be better. 
+Another issue that we’ve yet to resolve is our battery system. Currently, we’re using Lipo batteries that we charge with a balance charger, but if we’re going to commercialize our board, we probably don’t want to use a balance charger that takes time to set up before each charge. Plug and go would be the best. This problem is easily fixed; all we need is a BMS (Battery Management System). We’d plug the balance leads on our Lipo batteries to the BMS and wire the BMS to a port where we can connect a 25.2-volt charger. The BMS would automatically balance our batteries for us.
+The larger battery system problem has to do with the batteries themselves. While Lipo batteries have a very high energy density, the main issue is their short cycle times and instability. Lipo batteries can last for around 400-500 cycles while more stable lithium chemistries, such as LiFePO4 can last up to 2000 cycles.
+Another issue, the main issue, is that lipo batteries are a safety concern. Lithium polymer is one of the most unstable lithium battery chemistries, and can easily explode when overcharged or overdischarged.&lt;/p&gt;
+
+&lt;p&gt;Here’s an example of a lipo explosion.&lt;/p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/EseOhC8n7ro?rel=0&amp;amp;start=9&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Now we won’t be shooting BBs at our batteries and they should be protected from rocks and curbs by our battery case, but there’s a fair bit of vibration while riding the skateboard and we really don’t want to be taking any chances. Currently, our battery case is padded, but we’d prefer to work with more safe batteries. We started to experiment with building our own battery pack using 18650 li-ion cells, but that failed terribly and is for another post.&lt;/p&gt;
+
+&lt;p&gt;One last thing that I’ve been thinking about is the motor mount. Both the retaining piece and the motor mount itself can be thinner, and we might even be able to explore reintroducing our two-piece mount. The problem with our original two-piece mount was bending due to the high torque of the motor, but that was before we had the retaining brace. I think the retaining brace takes a significant load off the motor mount and might be enough to allow us to reintroduce some of our previously rejected thinner mount designs.&lt;/p&gt;
+
+&lt;p&gt;Most of what I’ve been writing doesn’t make any sense without photos, so I’ll include a few down below.&lt;/p&gt;
+
+&lt;p&gt;A full view of the bottom of the skateboard. The orange box is the battery case, the blue box is the ESC and receiver, the blue thing attached to the trucks at the top of the picture is the motor mount, and the yellow thing attached to the trucks is the retaining piece.
+&lt;img src=&quot;/assets/board-bottom.jpg&quot; alt=&quot;Board Bottom&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A top view of our board. Although there are small points where the screws used to attach the ESC and Battery cases stick out past the grip tape, they’re cut to length so they don’t actually stick out of the board.
+&lt;img src=&quot;/assets/board-top.jpg&quot; alt=&quot;Board Top&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A close up of the battery case with the batteries inside. 
+&lt;img src=&quot;/assets/batteries.jpg&quot; alt=&quot;Batteries&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Inside our ESC case. At the top is the receiver, and the main piece is the ESC. The translucent material around the outside is hot glue that we were using to waterproof the ESC. We switched to sealant meant specifically for waterproofing after this picture.
+&lt;img src=&quot;/assets/esc.jpg&quot; alt=&quot;ESC&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Our remote control. This is the only piece we didn’t design ourselves besides the 3D printed pulley we used for our drive wheel. The file can be found &lt;a href=&quot;https://www.thingiverse.com/thing:922378&quot;&gt;here&lt;/a&gt;. We plan on replacing this controller soon.
+&lt;img src=&quot;/assets/remote.jpg&quot; alt=&quot;Remote&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A close up of our motor mount. Note the ridges protruding out of the motor mount; these provide more rigidity and help reduce flexing. The mount is secured using threaded rod to a retaining piece mounted on the truck to hold it in place and to reduce torque on the mount.
+&lt;img src=&quot;/assets/motor-mount.jpg&quot; alt=&quot;Motor Mount&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 05 Aug 2017 11:35:34 +0000</pubDate>
+        <link>http://localhost:4000/eboard-project-post/2017/08/05/Eboard-Project-Update/</link>
+        <guid isPermaLink="true">http://localhost:4000/eboard-project-post/2017/08/05/Eboard-Project-Update/</guid>
+      </item>
+    
+      <item>
+        <title>Networking issues</title>
+        <description>&lt;p&gt;One of the issues that has been really difficult for me to solve with this project is coming up with a good networking protocol. In netsnek, there are servers and players. The game is snake/tron, so the only major information players need to receive from the server is the location of other players. The only major information the server needs to receive from the player is the direction in which the player wants to move. There’s some other info like leaderboards and when the game starts but that’s unrelated to my issue.&lt;/p&gt;
+
+&lt;p&gt;My issue is that when sending all the player/server data, either not all of the data is getting through, or the data is getting through too slowly (there’s a lot of lag). This issue pertains to sending and receiving directional/map data between the server and player because as the number of players goes up, the amount of network traffic caused by this communication also increases significantly. My network protocol needs to be reliable, lightweight, and fast.&lt;/p&gt;
+
+&lt;p&gt;Here are some things I’ve tried.&lt;/p&gt;
+
+&lt;p&gt;My first network protocol was to just send the players the entire map from the server, with the locations of every single snake, every single frame. This, of course, is highly inefficient, but because of the redundant information, it’s not that big of a deal if a packet isn’t received, the user’s display will still update properly when the next packet is sent a fraction of a second later. The issue with this approach is lag. With one or two players, this approach works well, but when you scale up to 5-6 players, the lag starts to become very noticeable. This is because as the number of players increase, not only are you broadcasting more transmissions for each of the new players, you’re also broadcasting larger transmissions, as the size of the map increases proportionally with the number of players. Therefore lag increases quadratically with the number of players, and in a fast-paced game like snake, lag makes the game almost unplayable.&lt;/p&gt;
+
+&lt;p&gt;My next and current approach at the time of writing this post was to only update pieces of the map that changed. The server would save the state of the map at the last broadcast and would compare the current state to the state at the last broadcast. If there were differences in any points of the map, the server would then send those differences to the players, and the players would update their screens accordingly.&lt;/p&gt;
+
+&lt;p&gt;This approach worked well in solving the lag problem; the game can now support its max of 9 players without any noticeable lag. However, it caused a separate issue. Sometimes not all of the packets would go through, and when this happened, the failed broadcasts would create gaps in the player maps. It caused situations where players would think that squares were empty, but there were actually snake pieces there. I’m not really sure why this is happening, the java socket class uses the TCP protocol, which theoretically ensures the delivery of practically every packet. I think the issue might not be related to the transmission of the packets, but to the reception. I’m using Inputstreamreaders to receive the data so I theorized that the dropped packets could be caused by a buffer overflow on the player end.&lt;/p&gt;
+
+&lt;p&gt;To test this theory, I created a separate thread to empty the player buffer and place data into a separate queue as soon as it’s received. This way, I could be sure that there’s no buffer pileup caused by the main thread waiting on the GUI to draw. However, even after making sure that the buffers weren’t filling up, I still had some lost packets.&lt;/p&gt;
+
+&lt;p&gt;I think the next approach I’m going to try is a combination of the first two ideas. I’m only going to be transmitting the data for movements that need to be updated, but I’ll transmit that data a few times to ensure the message goes through. I’ll also combine transmissions. Right now, I update each coordinate independently, so basically if 4 snakes move in a frame, I send 4 different packets with snake locations. This makes the packets small but does create a lot of packets. It might help if I combine these transmissions all into a single broadcast. I hope this method works because I really want to work on a different part of the project like the GUI and settings.&lt;/p&gt;
+
+&lt;p&gt;I’ll keep you posted on the results.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 05 Jul 2017 11:35:34 +0000</pubDate>
+        <link>http://localhost:4000/netsnek-project-post/2017/07/05/Networking-issues/</link>
+        <guid isPermaLink="true">http://localhost:4000/netsnek-project-post/2017/07/05/Networking-issues/</guid>
+      </item>
+    
+      <item>
+        <title>Issues with hosting</title>
+        <description>&lt;p&gt;So I ran into a minor (pretty major) issue today. I had originally planned to use GitHub sites to host my website. Jekyll, the framework I’m using to generate this site is developed by the founder of Github, and as a result, GitHub supports Jekyll with some additional features. By using GitHub sites, all one has to do to deploy their Jekyll website is add a repository with their Jekyll code, and enable GitHub sites. GitHub takes care of building and deploying your site, which means you can even edit your site online through GitHub’s text editor without downloading and pushing your code. However, since GitHub is building and deploying your site, you have to make sure all the plugins you are using are supported by GitHub’s build platform.&lt;/p&gt;
+
+&lt;p&gt;This is what’s causing my hosting issues.&lt;/p&gt;
+
+&lt;p&gt;I did a test launch on GitHub sites and I noticed some of the HTML generate was different from what I had locally. I realized that this was because I’m using the Jekyll-paginate-v2 plugin, not the original Jekyll-paginate plugin. Unfortunately, I actually need the paginate-v2 plugin, since the original plugin is very restrictive and only allows you to have one paginate page whereas I would like a paginate page for each project I’m working on.&lt;/p&gt;
+
+&lt;p&gt;I think I have two options going forward.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;I can try to see if I can still use GitHub sites to host my site, and just not take advantage of their auto-build and deploy feature.&lt;/li&gt;
+  &lt;li&gt;I can use a different hosting service.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I’m not sure what I’ll do yet, but I’m going to start looking into some other hosting services and compare them to Github’s.&lt;/p&gt;
+
+&lt;p&gt;Oh yeah, I also need a domain name. austinzhang.com is taken, but austinzhang.io and austinmzhang.com are open. I still need to decide.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 04 Jul 2017 12:55:11 +0000</pubDate>
+        <link>http://localhost:4000/website-project-post/2017/07/04/Issues-with-hosting/</link>
+        <guid isPermaLink="true">http://localhost:4000/website-project-post/2017/07/04/Issues-with-hosting/</guid>
+      </item>
+    
+      <item>
+        <title>The start of my website project.</title>
+        <description>&lt;p&gt;This is officially the first non-test post on my website.&lt;/p&gt;
+
+&lt;p&gt;After trying a lot of different frameworks (React, Bootstrap, Django, HTML5 Boilerplate) I finally settled on Jekyll. Here’s why.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;The main reason why I decided to use Jekyll for my website project is that it’s a static page generator. I’m not really trying to build a web app, so while frameworks such as Django and react are feature packed, using them for a small personal website would just lead to a bloated site. Jekyll is also faster than these alternatives, as the HTML is pre-generated.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The secondary reason I decided to use Jekyll over something like just writing a site from scratch with CSS and HTML or a Boilerplate template is that Jekyll makes it really easy for me to update my site. Instead of having to edit HTML and CSS whenever I want to add something to the site, I can just add a separate markdown file. Being able to write new posts without actually writing new code is going to be nice in the long run.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Setting up this site definitely was not as easy as I thought it would be. For one, Jekyll is only with Unix, so to get it to work on my windows laptop, I had to set up a bash shell before I could even get started. Then, I had some issues with package dependencies and a really difficult time troubleshooting paginate features, but I’ve been testing the site for a while and I think it’s finally about where I want it to be.&lt;/p&gt;
+
+&lt;p&gt;I decided on a template called &lt;a href=&quot;https://github.com/johnotander/pixyll&quot;&gt;pixyll&lt;/a&gt; to use for the site. I mainly like its clean minimalistic design. There are a few CSS styling aspects I might want to change, such as darkening the navbar a little and maybe applying a color gradient, but nothing too major.&lt;/p&gt;
+
+&lt;p&gt;I still have to figure out how I’m going to host this website. I’m probably going to just host it on GitHub sites for free as a personal page, but I might use AWS. We’ll see. Well, I guess I’ll see since nobody else will be reading this until after I have the hosting figured out.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 03 Jul 2017 02:38:11 +0000</pubDate>
+        <link>http://localhost:4000/website-project-post/2017/07/03/The-start-of-website-project/</link>
+        <guid isPermaLink="true">http://localhost:4000/website-project-post/2017/07/03/The-start-of-website-project/</guid>
+      </item>
+    
+  </channel>
+</rss>
