@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title></title>
-    <link>http://localhost:4000</link>
+    <link>/</link>
     <description>
       A place where I share thoughts and projects.
     </description>
@@ -10,7 +10,7 @@
         
             <item>
                 <title>Second day on the road</title>
-                <link>http://localhost:4000/senior-trip-post/2018/05/20/Second-day-on-the-road/</link>
+                <link>//senior-trip-post/2018/05/20/Second-day-on-the-road/</link>
                 <content:encoded>
                     <![CDATA[
                     <p>We spent the second day of our journey almost entirely on the road except for rest stops and roads. This time we traveled from last night’s stop at Olean NY to our destination in the White Mountains, Lafayette Campground. We got up a little late today, around 9 in the morning. We planned to leave at 9, but we left instead at 10. We drove all the way to Syracuse, only stopping once to take a picture at a scenic overlook, shown below.</p>
@@ -29,7 +29,7 @@
                 <description>
                     
                 </description>
-                <pubDate>Sun, 20 May 2018 23:00:00 +0000</pubDate>
+                <pubDate>Sun, 20 May 2018 19:00:00 -0400</pubDate>
                 <author>Austin Zhang</author>
             </item>
         
@@ -37,7 +37,7 @@
         
             <item>
                 <title>First day traveling</title>
-                <link>http://localhost:4000/senior-trip-post/2018/05/19/First-day-traveling/</link>
+                <link>//senior-trip-post/2018/05/19/First-day-traveling/</link>
                 <content:encoded>
                     <![CDATA[
                     <p>The first day of our journey was rather uneventful. After packing all of our supplies, we picked Abhi up who just returned from St. Louis. The drive to our eventual destination of Olean was fairly scenic, but much of it was clouded by rain and thunderstorms which proved quite the impediment. After 5 hours and crossing two state lines, we finally arrived at Olean, making it just in time to a restaurant before it’s closing time.</p>
@@ -56,7 +56,7 @@ Still raining when we hit New York.</p>
                 <description>
                     
                 </description>
-                <pubDate>Sat, 19 May 2018 23:49:00 +0000</pubDate>
+                <pubDate>Sat, 19 May 2018 19:49:00 -0400</pubDate>
                 <author>Austin Zhang</author>
             </item>
         
@@ -64,7 +64,7 @@ Still raining when we hit New York.</p>
         
             <item>
                 <title>Planning the trip</title>
-                <link>http://localhost:4000/senior-trip-post/2018/05/17/Planning-the-trip/</link>
+                <link>//senior-trip-post/2018/05/17/Planning-the-trip/</link>
                 <content:encoded>
                     <![CDATA[
                     <p>This trip took a lot of planning regarding places to stay, setting up activities, and the overall itinerary. So after several group meetings at Starbucks and meetings with our parents to finalize everything, we finally finished our plan. On Saturday we are leaving around 3 pm to go to Olean and spend the night at a hotel. Sunday we are driving to the White Mountains in New Hampshire and that evening we will set up our tent at the camping ground. After camping that night, we will hike Franconia trail during the day (9-hour trail). On Tuesday, we will go fishing, pack up our camping site, and drive to Mount Washington. Wednesday we will hike up Mount Washington. Thursday we will hike the lonesome lake trails and go fishing and in the evening drive to Maine. Friday we will watch the sunrise over Cape Elizabeth, spend a day in new york and then head home!</p>
@@ -75,7 +75,7 @@ Still raining when we hit New York.</p>
                 <description>
                     
                 </description>
-                <pubDate>Thu, 17 May 2018 11:35:00 +0000</pubDate>
+                <pubDate>Thu, 17 May 2018 07:35:00 -0400</pubDate>
                 <author>Austin Zhang</author>
             </item>
         
@@ -83,7 +83,7 @@ Still raining when we hit New York.</p>
         
             <item>
                 <title>U-Chicago essay prompt fun</title>
-                <link>http://localhost:4000/2017/08/14/uchicago-essay-prompt/</link>
+                <link>//2017/08/14/uchicago-essay-prompt/</link>
                 <content:encoded>
                     <![CDATA[
                     <p>As a high school senior, I’ve started to look at some of the supplemental essays for different colleges, and one of U Chicago’s prompts caught my eye. The prompt is, <em>“Due to a series of clerical errors, there is exactly one typo (an extra letter, a removed letter, or an altered letter) in the name of every department at the University of Chicago. Oops! Describe your new intended major. Why are you interested in it and what courses or areas of focus within it might you want to explore? Potential options include Commuter Science, Bromance Languages and Literatures, Pundamentals: Issues and Texts, Ant History…”</em> U Chicago is pretty well known for its unconventional prompts, and this prompt is no exception. However, this prompt was particularly interesting because there’s a pretty cool project that can be adapted from it.</p>
@@ -124,7 +124,7 @@ Still raining when we hit New York.</p>
         
             <item>
                 <title>Eboard Update</title>
-                <link>http://localhost:4000/eboard-project-post/2017/08/05/Eboard-Project-Update/</link>
+                <link>//eboard-project-post/2017/08/05/Eboard-Project-Update/</link>
                 <content:encoded>
                     <![CDATA[
                     <p>Our electric skateboard design is near finalization. The ESC case and battery case are finished and seem pretty sturdy. Now, the only thing we still need to workout is a transmitter/remote and a battery solution. 
@@ -166,7 +166,7 @@ Another issue, the main issue, is that lipo batteries are a safety concern. Lith
                 <description>
                     
                 </description>
-                <pubDate>Sat, 05 Aug 2017 11:35:34 +0000</pubDate>
+                <pubDate>Sat, 05 Aug 2017 07:35:34 -0400</pubDate>
                 <author>Austin Zhang</author>
             </item>
         
@@ -174,7 +174,7 @@ Another issue, the main issue, is that lipo batteries are a safety concern. Lith
         
             <item>
                 <title>Networking issues</title>
-                <link>http://localhost:4000/netsnek-project-post/2017/07/05/Networking-issues/</link>
+                <link>//netsnek-project-post/2017/07/05/Networking-issues/</link>
                 <content:encoded>
                     <![CDATA[
                     <p>One of the issues that has been really difficult for me to solve with this project is coming up with a good networking protocol. In netsnek, there are servers and players. The game is snake/tron, so the only major information players need to receive from the server is the location of other players. The only major information the server needs to receive from the player is the direction in which the player wants to move. There’s some other info like leaderboards and when the game starts but that’s unrelated to my issue.</p>
@@ -201,7 +201,7 @@ Another issue, the main issue, is that lipo batteries are a safety concern. Lith
                 <description>
                     
                 </description>
-                <pubDate>Wed, 05 Jul 2017 11:35:34 +0000</pubDate>
+                <pubDate>Wed, 05 Jul 2017 07:35:34 -0400</pubDate>
                 <author>Austin Zhang</author>
             </item>
         
@@ -209,7 +209,7 @@ Another issue, the main issue, is that lipo batteries are a safety concern. Lith
         
             <item>
                 <title>Issues with hosting</title>
-                <link>http://localhost:4000/website-project-post/2017/07/04/Issues-with-hosting/</link>
+                <link>//website-project-post/2017/07/04/Issues-with-hosting/</link>
                 <content:encoded>
                     <![CDATA[
                     <p>So I ran into a minor (pretty major) issue today. I had originally planned to use GitHub sites to host my website. Jekyll, the framework I’m using to generate this site is developed by the founder of Github, and as a result, GitHub supports Jekyll with some additional features. By using GitHub sites, all one has to do to deploy their Jekyll website is add a repository with their Jekyll code, and enable GitHub sites. GitHub takes care of building and deploying your site, which means you can even edit your site online through GitHub’s text editor without downloading and pushing your code. However, since GitHub is building and deploying your site, you have to make sure all the plugins you are using are supported by GitHub’s build platform.</p>
@@ -235,7 +235,7 @@ Another issue, the main issue, is that lipo batteries are a safety concern. Lith
                 <description>
                     
                 </description>
-                <pubDate>Tue, 04 Jul 2017 12:55:11 +0000</pubDate>
+                <pubDate>Tue, 04 Jul 2017 08:55:11 -0400</pubDate>
                 <author>Austin Zhang</author>
             </item>
         
@@ -243,7 +243,7 @@ Another issue, the main issue, is that lipo batteries are a safety concern. Lith
         
             <item>
                 <title>The start of my website project.</title>
-                <link>http://localhost:4000/website-project-post/2017/07/03/The-start-of-website-project/</link>
+                <link>//website-project-post/2017/07/02/The-start-of-website-project/</link>
                 <content:encoded>
                     <![CDATA[
                     <p>This is officially the first non-test post on my website.</p>
@@ -267,11 +267,11 @@ Another issue, the main issue, is that lipo batteries are a safety concern. Lith
 
                     ]]>
                 </content:encoded>
-                <guid isPermaLink="false">/website-project-post/2017/07/03/The-start-of-website-project/</guid>
+                <guid isPermaLink="false">/website-project-post/2017/07/02/The-start-of-website-project/</guid>
                 <description>
                     
                 </description>
-                <pubDate>Mon, 03 Jul 2017 02:38:11 +0000</pubDate>
+                <pubDate>Sun, 02 Jul 2017 22:38:11 -0400</pubDate>
                 <author>Austin Zhang</author>
             </item>
         
